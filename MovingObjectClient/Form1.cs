@@ -55,7 +55,7 @@ namespace MovingObjectClient
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // client tidak menggerakkan object; repaint saja kalau perlu
+
             Invalidate();
         }
 

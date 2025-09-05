@@ -22,7 +22,7 @@ namespace MovingObjectServer
             timer1.Interval = 50;
             timer1.Enabled = true;
 
-            // Jalankan server
+            // server jalan
             server = new TcpListener(IPAddress.Any, 5000);
             server.Start();
             server.BeginAcceptTcpClient(OnClientConnect, null);
